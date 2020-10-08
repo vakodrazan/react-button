@@ -4,16 +4,46 @@ import "./style.css"
 
 class App extends React.Component {
     render() {
+
         return (
-            <article>
+            <section>
                 <header>
                     <h2>Buttons</h2>
                 </header>
-                <div>
-                    <p>Button by default</p>
-                    <Button />
-                </div>
-            </article>
+
+                <article>
+                    <div className="wrapper">
+                        <div>
+                            <p>Button by default</p>
+                            <Button />
+                        </div>
+                        <div>
+                            <p>&:hover, &focus</p>
+                            <Button />
+                        </div>
+                    </div>
+                    <div className="wrapper">
+                        <div>
+                            <p>variant="outline"</p>
+                            <Button />
+                        </div>
+                        <div>
+                            <p>&:hover, &focus</p>
+                            <Button />
+                        </div>
+                    </div>
+                    <div className="wrapper">
+                        <div>
+                            <p>variant="text"</p>
+                            <Button />
+                        </div>
+                        <div>
+                            <p>&:hover, &focus</p>
+                            <Button />
+                        </div>
+                    </div>
+                </article>
+            </section>
         )
     }
 }
