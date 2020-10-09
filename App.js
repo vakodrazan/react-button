@@ -18,11 +18,6 @@ class App extends React.Component {
                         >
                             Default
                         </Button>
-                        <Button 
-                            paragraph="&:hover, &:focus" 
-                        >
-                            Default
-                        </Button>
                     </div>
 
                     <div className="wrapper">
@@ -32,22 +27,12 @@ class App extends React.Component {
                         >
                             Default
                         </Button>
-                        <Button 
-                            paragraph="&:hover, &:focus" 
-                        >
-                            Default
-                        </Button>
                     </div>
 
                     <div className="wrapper">
                         <Button 
                             variant="text"
                             paragraph='<Button variant="text" />' 
-                        >
-                            Default
-                        </Button>
-                        <Button 
-                            paragraph="&:hover, &:focus" 
                         >
                             Default
                         </Button>
@@ -64,6 +49,7 @@ class App extends React.Component {
 
                     <div className="wrapper">
                         <Button 
+                        
                             disabled
                             paragraph='<Button disabled />' 
                         >
@@ -125,19 +111,19 @@ class App extends React.Component {
                             color="primary"
                             paragraph='<Button color="primary" />' 
                         >
-                            Default
+                            Primary
                         </Button>
                         <Button 
                             color="secondary"
                             paragraph='<Button color="secondary" />' 
                         >
-                            Default
+                            Secondary
                         </Button>
                         <Button 
                             color="danger"
                             paragraph='<Button color="danger" />' 
                         >
-                            Default
+                            Danger
                         </Button>
                     </div>
                 </article>
