@@ -9,9 +9,43 @@ button {
 }
 
 .wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .wrapper div:first-of-type {
     padding-inline-end: 2rem;
+}
+
+.default:hover,
+.default:focus {
+    background-color: #AEAEAE;
+}
+
+.variant {
+    color: #3D5AFE;
+    background-color: white;
+    border: 1px solid #3D5AFE;
+    box-shadow: none;
+}
+
+.variantHover:hover,
+.variantHover:focus  {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+    color: #3D5AFE;
+    box-shadow: none;
+    background-color: white;
+}
+
+.textHover:hover,
+.textHover:focus  {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.disabledShadow {
+    color: #fff;
+    background-color: #3D5AFE;
 }
