@@ -10,17 +10,17 @@ button {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .wrapper div:first-of-type {
     padding-inline-end: 2rem;
 }
 
-.default:hover,
-.default:focus {
+/* button:hover,
+button:focus {
     background-color: #AEAEAE;
-}
+} */
 
 .outline {
     color: #3D5AFE;
@@ -29,10 +29,6 @@ button {
     box-shadow: none;
 }
 
-.variantHover:hover,
-.variantHover:focus  {
-    background-color: rgba(41, 98, 255, 0.1);
-}
 
 .text {
     color: #3D5AFE;
@@ -40,17 +36,41 @@ button {
     background-color: white;
 }
 
-.textHover:hover,
-.textHover:focus  {
-    background-color: rgba(41, 98, 255, 0.1);
-}
-
 .disabledShadow {
     color: #fff;
     background-color: #3D5AFE;
+    box-shadow: none;
 }
+
+svg {
+    width: 13.2px;
+}
+
 
 .disabled {
     color: #9E9E9E;
     box-shadow: none;
+}
+
+.localGroceryStore {
+    color: white;
+    background-color: #2962FF;
+}
+
+.smSize {
+    padding: 6px 12px;
+    color: #fff;
+    background-color: #2962FF;
+}
+
+.mdSize {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #2962FF;
+}
+
+.lgSize {
+    padding: 11px 22px;
+    color: #fff;
+    background-color: #2962FF;
 }
