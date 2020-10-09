@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Button(props) {
-    const variantOutline = props.variant == "outline" ? "variant" : "";
+    let variantOutline = props.variant == "outline" ? "variant" : props.variant == "text" ? "text" : "";
     return (
         <div>
             <p>{props.paragraph}</p>
