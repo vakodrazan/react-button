@@ -10,8 +10,23 @@ function Button(props) {
     const buttonDisabled = props.disabled ? "disabled" : "";
     const startIcon = props.startIcon ? svg : "";
     const endIcon = props.endIcon ? svg : "";
-    const localGroceryStore = props.startIcon === "local_grocery_store" || props.endIcon === "local_grocery_store" ? "localGroceryStore" : "";
-    const size = props.size === "sm" ? "smSize" : props.size === "md" ? "mdSize" : props.size === "lg" ? "lgSize" : "" 
+    const localGroceryStore = 
+        props.startIcon === "local_grocery_store" 
+        || props.endIcon === "local_grocery_store" 
+        ? "localGroceryStore" 
+        : "";
+
+    const size = 
+        props.size === "sm" ? "smSize" 
+        : props.size === "md" ? "mdSize" 
+        : props.size === "lg" ? "lgSize" 
+        : "";
+    const buttonColor = 
+        props.color === "default" ? "default" 
+        : props.color === "primary" ? "primary"
+        : props.color === "secondary" ? "secondary"
+        : props.color === "danger" ? "danger"
+        : "";
 
     return (
         <div>
@@ -24,8 +39,9 @@ function Button(props) {
                     ${buttonDisabled}
                     ${localGroceryStore}
                     ${size}
+                    ${buttonColor}
                 `}
-    >{startIcon} {props.children} {endIcon}</button>
+            >{startIcon} {props.children} {endIcon}</button>
         </div>
     )
 }
