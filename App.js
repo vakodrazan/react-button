@@ -13,34 +13,16 @@ class App extends React.Component {
 
                 <article>
                     <div className="wrapper">
-                        <div>
-                            <p>Button by default</p>
-                            <Button />
-                        </div>
-                        <div>
-                            <p>&:hover, &focus</p>
-                            <Button />
-                        </div>
+                        <Button paragraph="<Button />" />
+                        <Button paragraph="&:hover, &:focus" />
                     </div>
                     <div className="wrapper">
-                        <div>
-                            <p>variant="outline"</p>
-                            <Button />
-                        </div>
-                        <div>
-                            <p>&:hover, &focus</p>
-                            <Button />
-                        </div>
+                        <Button paragraph='<Button variant="outline" />' />
+                        <Button paragraph="<&:hover, &:focus" />
                     </div>
                     <div className="wrapper">
-                        <div>
-                            <p>variant="text"</p>
-                            <Button />
-                        </div>
-                        <div>
-                            <p>&:hover, &focus</p>
-                            <Button />
-                        </div>
+                        <Button paragraph='<Button variant="text" />' />
+                        <Button paragraph="<&:hover, &:focus" />
                     </div>
                 </article>
             </section>
