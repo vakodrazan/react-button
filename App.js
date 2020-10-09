@@ -17,34 +17,32 @@ class App extends React.Component {
                             paragraph="<Button />" 
                         />
                         <Button 
-                            btnStyle="default"
-                            paragraph="&:hover, &:focus" 
-                        />
-                    </div>
-                    <div className="wrapper">
-                        <Button 
-                            btnStyle="variant"
-                            paragraph='<Button variant="outline" />' 
-                        />
-                        <Button 
-                            btnStyle="variant variantHover"
-                            paragraph="&:hover, &:focus" 
-                        />
-                    </div>
-                    <div className="wrapper">
-                        <Button 
-                            btnStyle="text"
-                            paragraph='<Button variant="text" />' 
-                        />
-                        <Button 
-                            btnStyle="text textHover"
                             paragraph="&:hover, &:focus" 
                         />
                     </div>
 
                     <div className="wrapper">
                         <Button 
-                            btnStyle="disabledShadow"
+                            variant="outline"
+                            paragraph='<Button variant="outline" />' 
+                        />
+                        <Button 
+                            paragraph="&:hover, &:focus" 
+                        />
+                    </div>
+
+                    <div className="wrapper">
+                        <Button 
+                            variant="text"
+                            paragraph='<Button variant="text" />' 
+                        />
+                        <Button 
+                            paragraph="&:hover, &:focus" 
+                        />
+                    </div>
+
+                    <div className="wrapper">
+                        <Button 
                             paragraph='<Button disabledShadow />' 
                         />
                     </div>
