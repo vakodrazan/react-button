@@ -1,12 +1,22 @@
 import React from 'react';
 
 function Button(props) {
-    let variantOutline = props.variant == "outline" ? "variant" : props.variant == "text" ? "text" : "";
+    let buttonStyle;
+    if (props.variant == "outline") {
+        buttonStyle= "outline"
+    } else if (props.variant == "text") {
+        buttonStyle= "text"
+    } else if (props.disableShadow) {
+        buttonStyle= "disabledShadow"
+    } else if (props.disabled) {
+        buttonStyle= "disabled"
+    } 
+
     return (
         <div>
             <p>{props.paragraph}</p>
             <button 
-                className={variantOutline}
+                className={buttonStyle}
             >Default</button>
         </div>
     )

@@ -23,7 +23,7 @@ class App extends React.Component {
 
                     <div className="wrapper">
                         <Button 
-                            variant="outline"
+                            variant="outline" 
                             paragraph='<Button variant="outline" />' 
                         />
                         <Button 
@@ -43,7 +43,20 @@ class App extends React.Component {
 
                     <div className="wrapper">
                         <Button 
+                            disableShadow
                             paragraph='<Button disabledShadow />' 
+                        />
+                    </div>
+
+                    <div className="wrapper">
+                        <Button 
+                            disabled
+                            paragraph='<Button disabled />' 
+                        />
+                        <Button 
+                            variant="text"
+                            disabled
+                            paragraph='<Button variant="text" disabled />' 
                         />
                     </div>
                 </article>

@@ -22,7 +22,7 @@ button {
     background-color: #AEAEAE;
 }
 
-.variant {
+.outline {
     color: #3D5AFE;
     background-color: white;
     border: 1px solid #3D5AFE;
@@ -48,4 +48,9 @@ button {
 .disabledShadow {
     color: #fff;
     background-color: #3D5AFE;
+}
+
+.disabled {
+    color: #9E9E9E;
+    box-shadow: none;
 }
