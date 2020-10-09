@@ -8,6 +8,16 @@ button {
     color: #3F3F3F;
 }
 
+
+button:hover,
+button:focus {
+    background-color:  #AEAEAE;
+}
+
+svg {
+    width: 13.2px;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -17,11 +27,6 @@ button {
     padding-inline-end: 2rem;
 }
 
-/* button:hover,
-button:focus {
-    background-color: #AEAEAE;
-} */
-
 .outline {
     color: #3D5AFE;
     background-color: white;
@@ -29,11 +34,20 @@ button:focus {
     box-shadow: none;
 }
 
+.outline:hover,
+.outline:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+}
 
 .text {
     color: #3D5AFE;
     box-shadow: none;
     background-color: white;
+}
+
+.text:hover,
+.text:focus {
+    background-color: rgba(41, 98, 255, 0.1);
 }
 
 .disabledShadow {
@@ -42,19 +56,24 @@ button:focus {
     box-shadow: none;
 }
 
-svg {
-    width: 13.2px;
-}
-
-
 .disabled {
     color: #9E9E9E;
     box-shadow: none;
 }
 
+.disabled:hover,
+.disabled:focus {
+    background-color: rgb(209, 208, 208);
+}
+
 .localGroceryStore {
     color: white;
     background-color: #2962FF;
+}
+
+.localGroceryStore:hover,
+.localGroceryStore:focus {
+    background-color: #0d46e6;
 }
 
 .smSize {
@@ -63,14 +82,74 @@ svg {
     background-color: #2962FF;
 }
 
+.smSize:hover,
+.smSize:focus {
+    background-color: #0d46e6;
+}
+
+
 .mdSize {
     padding: 8px 16px;
     color: #fff;
     background-color: #2962FF;
 }
 
+.mdSize:hover,
+.mdSize:focus {
+    background-color: #0d46e6;
+}
+
+
 .lgSize {
     padding: 11px 22px;
     color: #fff;
     background-color: #2962FF;
+}
+
+.lgSize:hover,
+.lgSize:focus {
+    background-color: #0d46e6;
+}
+
+/* Color */
+
+.default {
+    background-color: #E0E0E0;
+}
+
+.button:hover,
+.button:focus {
+    background-color:  #AEAEAE;
+}
+
+
+.primary {
+    background-color: #2962FF;
+    color: #fff;
+}
+
+.primary:hover,
+.primary:focus {
+    background-color: #0039CB;
+}
+
+.secondary {
+    background-color: #455A64;
+    color: #fff;
+}
+
+.secondary:hover,
+.secondary:focus {
+    background-color: #1C313A;
+}
+
+
+.danger {
+    background-color: #D32F2F;
+    color: #fff;
+}
+
+.danger:hover,
+.danger:focus {
+    background-color: #9A0007;
 }
