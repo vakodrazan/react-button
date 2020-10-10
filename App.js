@@ -6,12 +6,13 @@ class App extends React.Component {
     render() {
 
         return (
-            <section>
+            <article>
                 <header>
                     <h2>Buttons</h2>
                 </header>
 
-                <article>
+                <section>
+                    {/* Style the button by default */}
                     <div className="wrapper">
                         <Button 
                             paragraph="<Button />" 
@@ -20,6 +21,7 @@ class App extends React.Component {
                         </Button>
                     </div>
 
+                    {/* Get the border when using the `variant="outline"` in the button and it should apply the style */}
                     <div className="wrapper">
                         <Button 
                             variant="outline" 
@@ -29,6 +31,7 @@ class App extends React.Component {
                         </Button>
                     </div>
 
+                    {/* The style for the button should apply when using `variant="text"` */}
                     <div className="wrapper">
                         <Button 
                             variant="text"
@@ -38,6 +41,7 @@ class App extends React.Component {
                         </Button>
                     </div>
 
+                    {/* Remove the shadow that set by default when using `disableShandow` property */}
                     <div className="wrapper">
                         <Button 
                             disableShadow
@@ -47,9 +51,9 @@ class App extends React.Component {
                         </Button>
                     </div>
 
+                    {/* Disabled the box shadow and make the text a bit blury when using `disable` but the background color still the one set by default */}
                     <div className="wrapper">
                         <Button 
-                        
                             disabled
                             paragraph='<Button disabled />' 
                         >
@@ -64,6 +68,7 @@ class App extends React.Component {
                         </Button>
                     </div>
 
+                    {/* Get the icon svg when using property `startIcon or endIcon` with `local_grocery_store` value in it */}
                     <div className="wrapper">
                         <Button 
                             startIcon="local_grocery_store" 
@@ -79,6 +84,7 @@ class App extends React.Component {
                         </Button>
                     </div>
 
+                    {/* Try to use different size by using `size` property and three diffent value  */}
                     <div className="wrapper">
                         <Button 
                            size="sm" 
@@ -100,6 +106,7 @@ class App extends React.Component {
                         </Button>
                     </div>
 
+                    {/* The color can changed for every button by using `color` property with some value */}
                     <div className="wrapper">
                         <Button 
                             color="default" 
@@ -127,6 +134,7 @@ class App extends React.Component {
                         </Button>
                     </div>
 
+                    {/* This is just for testing the button that the style can still apply when using different property at the same time */}
                     <div className="wrapper">
                         <Button 
                             size="lg"
@@ -138,8 +146,8 @@ class App extends React.Component {
                             Testing
                         </Button>
                     </div>
-                </article>
-            </section>
+                </section>
+            </article>
         )
     }
 }
