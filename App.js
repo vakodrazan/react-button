@@ -126,6 +126,18 @@ class App extends React.Component {
                             Danger
                         </Button>
                     </div>
+
+                    <div className="wrapper">
+                        <Button 
+                            size="lg"
+                            variant="outline"
+                            color="danger"
+                            disableShadow
+                            paragraph='<Button size="lg" variant="outline" color="secondary" disableShadow />' 
+                        >
+                            Testing
+                        </Button>
+                    </div>
                 </article>
             </section>
         )
