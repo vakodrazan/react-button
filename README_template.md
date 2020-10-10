@@ -68,8 +68,14 @@ $ npm start
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+ In this project we need to work with reacts. It was so cool to work to have project with react at the first time.😀
+
+ - First of all, we need have only one component for all the buttons.
+ - We need to access the `property=""` within its value and get some specific style for it. I use a ternary for each property.
+ - I tried once to use only one variable but I couldn't use more than one property because it overwrite the value.
 
 ## Contact
 
 -   Website [your-website.com](https://{your-web-site-link})
--   GitHub [@your-username](https://{github.com/your-usermame})
+-   GitHub [@your-username](https://https://github.com/vakodrazan/react-button)
+
