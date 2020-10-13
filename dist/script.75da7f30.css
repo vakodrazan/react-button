@@ -1,0 +1,159 @@
+button {
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    color: #3F3F3F;
+    cursor: pointer;
+}
+
+
+button:hover,
+button:focus {
+    background-color:  #AEAEAE;
+}
+
+svg {
+    width: 13.2px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.wrapper div:first-of-type {
+    padding-inline-end: 2rem;
+}
+
+.outline {
+    color: #3D5AFE;
+    background-color: white;
+    border: 1px solid #3D5AFE;
+    box-shadow: none;
+}
+
+.outline:hover,
+.outline:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+    color: #3D5AFE;
+    box-shadow: none;
+    background-color: white;
+}
+
+.text:hover,
+.text:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.disabledShadow {
+    color: #fff;
+    background-color: #3D5AFE;
+    box-shadow: none;
+}
+
+.disabled {
+    color: #9E9E9E;
+    box-shadow: none;
+}
+
+.disabled:hover,
+.disabled:focus {
+    background-color: rgb(209, 208, 208);
+}
+
+.localGroceryStore {
+    color: white;
+    background-color: #2962FF;
+}
+
+.localGroceryStore:hover,
+.localGroceryStore:focus {
+    background-color: #0d46e6;
+}
+
+.smSize {
+    padding: 6px 12px;
+    color: #fff;
+    background-color: #2962FF;
+}
+
+.smSize:hover,
+.smSize:focus {
+    background-color: #0d46e6;
+}
+
+
+.mdSize {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #2962FF;
+}
+
+.mdSize:hover,
+.mdSize:focus {
+    background-color: #0d46e6;
+}
+
+
+.lgSize {
+    padding: 11px 22px;
+    color: #fff;
+    background-color: #2962FF;
+}
+
+.lgSize:hover,
+.lgSize:focus {
+    background-color: #0d46e6;
+}
+
+/* Color */
+
+.default {
+    background-color: #E0E0E0;
+}
+
+.button:hover,
+.button:focus {
+    background-color:  #AEAEAE;
+}
+
+
+.primary {
+    background-color: #2962FF;
+    color: #fff;
+}
+
+.primary:hover,
+.primary:focus {
+    background-color: #0039CB;
+}
+
+.secondary {
+    background-color: #455A64;
+    color: #fff;
+}
+
+.secondary:hover,
+.secondary:focus {
+    background-color: #1C313A;
+}
+
+
+.danger {
+    background-color: #D32F2F;
+    color: #fff;
+}
+
+.danger:hover,
+.danger:focus {
+    background-color: #9A0007;
+}
+
+
+/*# sourceMappingURL=/script.75da7f30.css.map */
